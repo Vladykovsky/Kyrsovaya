@@ -1,0 +1,321 @@
+@font-face {
+  font-family: 'NCAA';
+  src: url('fonts/mustangs-webfont.woff2') format('woff2'),
+       url('fonts/mustangs-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F9F5EF;
+}
+
+.menu{
+  background-color: #4b91b9;
+  width: 100%;
+  position: absolute;
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+.menu a {
+  float: right;
+  color: #C9CAC7;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.menu a:hover {
+  background-color: #b7cedb;
+  color: #ffffff;
+}
+
+.menu h1{
+  font-size: 22px;
+  color: #F7F8F4;
+  float: left;
+}
+
+.menu img{
+  height: 35px;
+  padding: 10px;
+  padding-left: 20px;
+  float: left;
+}
+
+.title h3{
+  font-size: 34px;
+  font-family: NCAA;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  height: 35px;
+  color: #413E3E;
+}
+
+.title {
+  padding-left: 4.5%;
+  position: absolute;
+  top: 60px;
+}
+
+.title2{
+  font-size: 34px;
+  font-family: NCAA;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  height: 35px;
+  color: #413E3E;
+  top: 60px;
+  text-align: center;
+}
+
+.info{
+  position: relative;
+  top: 740px;
+  height: 455px;
+  width:100%;
+  background: #4b91b9;
+  
+}
+
+.info img{
+  height: 300px;
+  width: 437px;
+  padding-left: 40px;
+  padding-top: 120px;  
+}
+
+.info h1{
+  float: left;
+  position: absolute;
+  top: 29px;
+  font-size: 28px;
+  padding-left: 84px;
+  letter-spacing: 0.1em;
+  line-height: 32px;
+  font-family: NCAA;
+}
+
+.info h2{
+  position: absolute;
+  font-family: Arial Black;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 31px;
+  letter-spacing: 0.1em;
+  color: #F7F8F4;
+  top: 100px;
+  padding-left: 540px;
+}
+
+.info h3{
+  position: absolute;
+  font-family: Arial Unicode MS;
+  color: #F7F8F4;
+  top: 170px;
+  width: 900px;
+  word-wrap: break-word;
+  font-size: 17px;
+  padding-left: 540px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+}
+
+
+#rectangle {
+  width:413px;
+  height:60px;
+  background: #F3BF39;
+  position: absolute;
+  top: 35px;
+  left:35px;
+}
+
+.info .instagramIcon {
+  width: 50px;
+  height: 40px;
+}
+
+.info .facebookIcon {
+  width: 50px;
+  height: 40px;
+}
+
+.info .TwitterIcon {
+  width: 50px;
+  height: 40px;
+}
+
+.login
+{
+  background-image: url(/login.png);
+  opacity: 0.7;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color:white;
+}
+
+.dropdown {
+  padding:0px;
+  float: right;
+  overflow: hidden;
+  color:#C9CAC7;
+  cursor: default;
+}
+
+.dropdown:hover {
+  background-color: #032815;
+  color: #ffffff;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  border: none;
+  outline: none;
+  color:inherit;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+/* Add a grey background color to navbar links on hover */
+.menu b:hover{
+  color: #413E3E;
+  mix-blend-mode: hard-light;
+
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  right: 64px;
+  margin-top: 1em;
+  position: absolute;
+  background-color: #5fb5e7;
+  width:140px ;
+  height:270px ;
+  z-index: 1;  
+}
+
+
+.dropdown-content a
+{
+  float: none;
+  text-align: left;
+  font-family: NCAA;
+  font-style: Regular;
+  fill: solid;
+  color:#413E3E;
+  font-size: 16px;
+  padding: 12px ;
+  letter-spacing: 15%;
+  text-decoration: none;
+  height: 2px;
+  display: block;
+
+}
+
+/* Create three equal columns that floats next to each other */
+.column  {
+  float: left;
+  width: 19.33%;
+  padding: 8px;
+  background-color:#5fb5e7;
+  height: 120px;
+}
+
+.column b {
+  float: none;
+  color:#413E3E;
+  padding: 1px;
+  font-family: NCAA;
+  font-style: Regular;
+  font-size: 10px;
+  fill: solid;
+  text-decoration: none;
+  display: block;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Links inside the dropdown */
+.dropdown-content b {
+  float: none;
+  font-family: NCAA;
+  font-style: Regular;
+  fill: solid;
+  color:#413E3E;
+  font-size: 16px;
+  padding: 10px;
+  letter-spacing: 15%;
+  text-decoration: none;
+ 
+  display: block;
+}
+
+.menu h3{
+  top: 10px;
+  line-height: 0pc;
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 22px;
+  color:#413E3E;
+  font-style: Bold;
+  letter-spacing: 10%;
+  font-family: Arial;
+  vertical-align: top;
+}
+
+.menu h4{
+  margin-top: -12px;
+  margin-left: 10px;
+  line-height: 0pc;
+  font-size: 23px;
+  font-weight: 900;
+  color: #F3BF39;
+  height: 0;
+
+}
+
+.menu h5{
+  padding-left: 15px;
+  line-height: 13pt;
+  font-size: 23px;
+  font-weight: 900;
+  color: #154734;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}

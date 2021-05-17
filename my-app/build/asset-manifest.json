@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d69a89ed.chunk.css",
+    "main.js": "/static/js/main.a157c026.chunk.js",
+    "main.js.map": "/static/js/main.a157c026.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7c0ae09a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7c0ae09a.js.map",
+    "static/css/2.cac10381.chunk.css": "/static/css/2.cac10381.chunk.css",
+    "static/js/2.d5ed082e.chunk.js": "/static/js/2.d5ed082e.chunk.js",
+    "static/js/2.d5ed082e.chunk.js.map": "/static/js/2.d5ed082e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ac6d101920946c54f98bb4772f83b18f.js": "/precache-manifest.ac6d101920946c54f98bb4772f83b18f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.cac10381.chunk.css.map": "/static/css/2.cac10381.chunk.css.map",
+    "static/css/main.d69a89ed.chunk.css.map": "/static/css/main.d69a89ed.chunk.css.map",
+    "static/js/2.d5ed082e.chunk.js.LICENSE.txt": "/static/js/2.d5ed082e.chunk.js.LICENSE.txt",
+    "static/media/button.png": "/static/media/button.0db46020.png",
+    "static/media/app.css": "/static/media/ncaa_cal_poly_mustangs-webfont.88afe363.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7c0ae09a.js",
+    "static/css/2.cac10381.chunk.css",
+    "static/js/2.d5ed082e.chunk.js",
+    "static/css/main.d69a89ed.chunk.css",
+    "static/js/main.a157c026.chunk.js"
+  ]
+}
